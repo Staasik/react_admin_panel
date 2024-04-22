@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(cors());
 app.use(bodyParser.json());
 
-// Обработчик для корневого пути (т.к. файлы не лежат в одной директории)
+// Обработчик для корневого пути
 app.get("/", (req, res) => {
     res.send("Server is up and running!");
 });

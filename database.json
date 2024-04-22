@@ -18,5 +18,9 @@
   {
     "username": "admin2",
     "password": "$2b$10$rrzpISktOlTZPkvVGIAo5.DFnqX7uQAmFL9Di6R/VFRs8Ul.YRxES"
+  },
+  {
+    "username": "admin3",
+    "password": "$2b$10$66ZjLDBVJyP3aPCrH72TROl5JePbSKgAWpg/whz/yitT7hlyGn5zO"
   }
 ]
