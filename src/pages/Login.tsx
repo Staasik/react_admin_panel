@@ -8,8 +8,10 @@ function Login() {
     const handleLogin = (username: string, password: string) => {
         axios.post("http://localhost:3001/api/login", { username, password })
             .then(response => {
+                const token = response.data.token;
+                localStorage.setItem("token", token);
                 console.log(response.data.message);
-                window.location.href = "/";
+                window.location.href = "/main";
             })
             .catch(error => {
                 console.error("Ошибка при авторизации:", error);
